@@ -1,0 +1,1 @@
+start@1 <mov> [<call> mop_v  [argv0 0]]  lvname@1 <jz> lvname@1 0 JUMP@4 start@2 <jnz> [<ldx> cs.2 [<add> lvname@1 constn.4]] constn.4 JUMP@4 start@3 <ldx> cs.2 [<add> [<ldx> cs.2 [<add> lvname@1 constn.4]] constn.4] lvar@3 <goto> JUMP@5   start@4 <mov> 0  lvar@3 start@5 <mov> lvar@3  resultlv@5 
