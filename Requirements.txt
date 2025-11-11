@@ -16,4 +16,5 @@ capstone==5.0.5
 tqdm==4.64.1
 matplotlib==3.7.2
 pyyaml==6.0.2
+
 opencv-python==4.11.0.86
