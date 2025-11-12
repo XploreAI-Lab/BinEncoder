@@ -1,7 +1,7 @@
 ## About
 BinEncoder is an innovative binary code similarity detection (BCSD) method that addresses challenges caused by different compiling configurations—such as different architectures, compilers, or optimization levels—by introducing new pre-training tasks.
 
-## pipeline
+## Pipeline
 1.**Batch Microcode Extraction**
 Use ida_wakeup.py and info_collect.py to extract function microcode and metadata from the original binary files (.elf).
 
