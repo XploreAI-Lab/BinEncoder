@@ -1,5 +1,5 @@
 ## About
-BinEncoder is an innovative binary code similarity detection (BCSD) method that addresses challenges caused by different compiling configurations—such as different architectures, compilers, or optimization levels—by introducing new pre-training tasks.
+BinEncoder is an innovative BCSD method that preserves more semantic information through a novel microcode preprocessing approach and trains a new Transformer-based model using three carefully designed pre-training tasks.
 
 ## Pipeline
 1.**Batch Microcode Extraction**
