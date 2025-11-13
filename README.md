@@ -3,8 +3,9 @@ BinEncoder is an innovative BCSD method that preserves more semantic information
 
 ## Pipeline
 1.**Batch Microcode Extraction**
-Use ida_wakeup.py and info_collect.py to extract function microcode and metadata from the original binary files (.elf).
-
+- `ida_wakeup.py`: This is a batch script used to automatically analyze an entire directory of binary files. It detects whether the binaries are 32-bit or 64-bit and launches the corresponding IDA Pro executable (e.g., idat.exe or idat64.exe) in batch mode. The script automatically executes info_collect.py on each binary file.
+- `info_collect.py`: This script runs inside IDA Pro and is central to implementing the Instruction Normalization process. It iterates through all functions in the binary file and implements instruction decompression and fine-grained tokenization in the moprand_process function.
+  
 2.**Build Tokenizer**
 - `extract_token.py`: Processes the data and generates an add_vocal.txt file containing all custom microcode tokens.
 - `build_mytokenizer.py`: Loads a pre-trained BERT model, adds the new tokens from add_vocal.txt, and saves a new model and tokenizer directory ready for training.
