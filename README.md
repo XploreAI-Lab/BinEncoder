@@ -1,7 +1,6 @@
 ## About
 BinEncoder is an innovative BCSD method that preserves more semantic information through a novel microcode preprocessing approach and trains a new Transformer-based model using three carefully designed pre-training tasks.
-Dataset-VUL are available at [here]([https://github.com/your-other-link-here](https://github.com/XploreAI-Lab/BinEncoder/releases/tag/v1.0.0
-)
+Dataset-VUL are available at [here](https://github.com/XploreAI-Lab/BinEncoder/releases/tag/v1.0.0)
 
 ## Pipeline
 1.**Batch Microcode Extraction**
