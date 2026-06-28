@@ -62,7 +62,7 @@ class Config:
 
 class TrainDataset(Dataset):
     """
-    注意：由于没有使用data_collator，batch放在dataset里边做，
+    注意：由于没有使用data_collator，batch放在dataset里边，
     因而在dataloader出来的结果会多套一层batch维度，传入模型时注意squeeze掉
     """
 
