@@ -1,5 +1,5 @@
 ## About
-BinEncoder is an innovative BCSD method that preserves more semantic information through a novel microcode preprocessing approach and trains a new Transformer-based model using three carefully designed pre-training tasks. We also provide Dataset-VUL, a vulnerability-oriented dataset for evaluating vulnerable function retrieval in practical BCSD scenarios.
+BinEncoder is an innovative Binary Code Similarity Detection (BCSD) method that preserves more semantic information through a novel microcode preprocessing approach and trains a new Transformer-based model using three carefully designed pre-training tasks. We also provide Dataset-VUL, a vulnerability-oriented dataset for evaluating vulnerable function retrieval in practical BCSD scenarios.
 ## Dataset
 Dataset-VUL is included in this repository. It contains raw microcode, normalized microcode, function call lists, and microcode adjacency matrices for vulnerability-oriented BCSD evaluation.
 
