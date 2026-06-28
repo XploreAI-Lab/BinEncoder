@@ -27,7 +27,7 @@ def find_matching_files(bin_dir, cfg_summary_dir):
     bin_files = os.listdir(bin_dir)
     cfg_summary_files = os.listdir(cfg_summary_dir)
 
-    # 创建一个字典来存储文件名前缀和对应的文件路径
+    # 创建字典来存储文件名前缀和对应的文件路径
     bin_dict = {}
     cfg_summary_dict = {}
 
