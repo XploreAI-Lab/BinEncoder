@@ -159,6 +159,7 @@ if __name__ == '__main__':
     timestamp = time.strftime("%m_%d_%H_%M", time.localtime())
     torch.manual_seed(2023)
 
+    # 根据自己的设置给定目录
     input_dir = r'F:\BinEncoder\dbs\Dataset-1\eval\name_emb'
     output_dir = r'F:\BinEncoder\dbs\Dataset-1\eval\results'
 
